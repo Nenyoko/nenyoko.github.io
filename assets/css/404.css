@@ -1,0 +1,91 @@
+/* This file and all its components are under Apache-2.0 License. */
+
+@font-face {
+    font-family: "Montserrat";
+    src: local(Montserrat), url(../fonts/Montserrat-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: local(Montserrat), url(../fonts/Montserrat-Bold.otf);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin:0;
+    padding:0;
+    min-height:100vh;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.8em;
+    color: #ddd;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url(https://source.unsplash.com/random/?code,coding,technology,computer-hardware,electronic,electronics,work,workspace,office);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-content {
+    background: #141414;
+    margin: auto 10%;
+    padding: 32px;
+    height: auto;
+    width: auto;
+    border-radius: 16px;
+}
+
+.link {
+    color: inherit;
+    font-weight: 700;
+    padding-bottom: 4px;
+    text-decoration: none;
+    border-bottom: dotted 1px #aaa;
+}
+
+.link:hover {
+    color: #fff;
+    border-bottom: solid 1px #fff;
+}
+
+.fa {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+footer {
+    font-size: .6em;
+    color: #888;
+}

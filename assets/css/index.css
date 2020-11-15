@@ -1,0 +1,166 @@
+/* This file and all its components are under Apache-2.0 License. */
+
+@font-face {
+    font-family: "Montserrat";
+    src: local(Montserrat), url(../fonts/Montserrat-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: local(Montserrat), url(../fonts/Montserrat-Bold.otf);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin:0;
+    padding:0;
+    min-height:100vh;
+}
+
+body {
+    background: #141414;
+    color: #ddd;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {
+    padding: 40px 0;
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+#wrapper .page-content {
+    max-width: 800px;
+}
+
+hr {
+	display: block;
+	border: 0;
+	border-top: 1px solid #444;
+	margin: 40px 0;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+
+.intro .avatar {
+    width: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+img {
+    border-style: none;
+}
+
+.link {
+    color: inherit;
+    font-weight: 700;
+    padding-bottom: 4px;
+    text-decoration: none;
+    border-bottom: dotted 1px #aaa;
+}
+
+.link:hover {
+    color: #fff;
+    border-bottom: solid 1px #fff;
+}
+
+.projects-list {
+    display: flex;
+    justify-content: center;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project {
+    background: #292b2f;
+    border-radius: 8px;
+    padding: 24px;
+    height: 45%;
+    width: 65%;
+}
+
+@media only screen and (max-width: 775px) {
+    .project {
+        height: 50%;
+        width: 100%;
+    }
+    .project-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .project-button .project-link {
+        margin-bottom: 16px;
+    }
+}
+
+.project p {
+    margin-bottom: 32px;
+}
+
+.project-button .project-link {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 8px 16px;
+    border: dotted 2px;
+    border-radius: 8px;
+    color: #7289da;
+}
+
+.project-button .project-link:hover {
+    color: #0056b3;
+}
+
+.social-list {
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.social-link {
+    margin-right: 20px;
+}
+
+.fa {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+footer {
+    font-size: .6em;
+    color: #888;
+}
