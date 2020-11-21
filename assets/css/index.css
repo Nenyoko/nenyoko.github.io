@@ -97,6 +97,7 @@ img {
 .projects-list {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .project-title {
@@ -108,8 +109,14 @@ img {
     background: #292b2f;
     border-radius: 8px;
     padding: 24px;
+    margin: 48px 0;
     height: 45%;
     width: 65%;
+}
+
+.project-button {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 @media only screen and (max-width: 775px) {
@@ -134,7 +141,7 @@ img {
 .project-button .project-link {
     margin-left: 5%;
     margin-right: 5%;
-    padding: 8px 16px;
+    padding: 8px 24px;
     border: dotted 2px;
     border-radius: 8px;
     color: #7289da;
